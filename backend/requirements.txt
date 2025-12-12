@@ -1,0 +1,20 @@
+# Flask Backend for StoryForge AI
+# Week 2 LLM Engineering Project
+
+# Web Framework
+flask==3.0.0
+flask-cors==4.0.0
+
+# AI/LLM
+litellm==1.52.0
+openai==2.9.0
+
+# Environment & Utils
+python-dotenv==1.0.0
+requests==2.32.5
+
+# Database
+# SQLite is built-in, no extra package needed
+
+# Server
+gunicorn==21.2.0

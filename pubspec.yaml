@@ -1,0 +1,49 @@
+name: story_forge_ai
+description: "StoryForge AI - Multi-modal AI Story Creator with Bloc Architecture"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  flutter_markdown: ^0.7.7+1
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+
+  # State Management (Bloc - Different from Provider in ai_job_booster)
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+  equatable: ^2.0.5
+
+  # Network
+  dio: ^5.7.0
+
+  # Audio Player (for TTS)
+  audioplayers: ^6.1.0
+  path_provider: ^2.1.5
+
+  # Local Storage
+  shared_preferences: ^2.3.3
+
+  # Utils
+  uuid: ^4.5.1
+  intl: ^0.19.0
+
+  # Dependency Injection
+  get_it: ^7.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
