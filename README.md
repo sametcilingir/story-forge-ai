@@ -43,6 +43,20 @@ A full-stack mobile application demonstrating advanced LLM engineering concepts 
 
 ---
 
+## 📸 UI Screenshots
+
+<p align="center">
+  <img src="screenshots/Screenshot_1765542678.png" alt="Story screen with generated text" width="320" />
+  <img src="screenshots/Screenshot_1765542662.png" alt="Genre and model selection landing" width="320" />
+</p>
+<p align="center">
+  <img src="screenshots/Screenshot_1765542703.png" alt="Illustration modal with DALL-E image" width="320" />
+  <img src="screenshots/Screenshot_1765542761.png" alt="Narration player modal" width="320" />
+  <img src="screenshots/Screenshot_1765542779.png" alt="Story history list" width="320" />
+</p>
+
+---
+
 ## 🏛️ Clean Architecture
 
 This project follows **Clean Architecture** principles, separating the codebase into distinct layers with clear boundaries and dependencies.
